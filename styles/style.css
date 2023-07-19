@@ -10,7 +10,7 @@ body {
     min-height: 50x;
     display: flex;
     align-items: center;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     background-color: #FFF;
     padding: 10px;
@@ -51,7 +51,82 @@ body {
     display: flex;
     align-items: center;
 }
-.follow-btn i {
-    font-size: 20px;
-    margin-left: 8px;
+/* nav design ends */
+/* banner design starts */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 30px;
+}
+
+.left-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image:im;
+}
+
+.left-side h1 {
+    font-size: 24px;
+}
+.pink-text{
+    color:#F948B2, #8758F1;
+}
+
+.left-side h1 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.left-middle {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.icon-container {
+    text-align: center;
+}
+
+.icon-container i {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.buttons-container {
+    margin-top: 7px;
+}
+
+.pink-button, .blue-button {
+    background-color: #ff42a5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.blue-button {
+    background-color:#4EC5F7;
+}
+
+.right-side {
+    flex: 1;
+}
+
+.right-side img {
+    width: 100%;
+    height: auto;
 }

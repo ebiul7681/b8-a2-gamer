@@ -1,33 +1,14 @@
 @media screen and (max-width: 768px) {
     .nav-container {
         flex-direction: column;
-        padding: 10px 20px;
     }
-    .logo-container {
-        width: 100%;
-        margin-bottom: 10px;
+    .nav-item-container{
+        flex-direction: column;
     }
-    .logo-container {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-    .logo-text {
-        font-size: 30px;
-    }
-    .logo-container img {
-        margin-top: 0;
-    }
-    .nav-item-container {
-        margin-top: 10px;
-        justify-content: space-evenly;
-    }
-    .nav-item-container a {
-        font-size: 20px;
-    }
-    .follow-btn {
-        padding: 12px 8px;
-    }   
-    .follow-btn i {
-        font-size: 18px;
-    }
-        
+}
+        /* section1 resposive start */
+        @media screen and (max-width: 768px){
+        .banner-container{
+            flex-direction: column;
+        }
+        }
